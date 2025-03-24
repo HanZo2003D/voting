@@ -1,0 +1,155 @@
+/* Container styling */
+.candidate-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Candidate card styling */
+.candidate-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Candidate name styling */
+.candidate-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Vote button styling */
+.vote-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.vote-button:hover {
+  background-color: darkblue;
+}
+
+/* Disabled button styling */
+.vote-button.disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+/* Container styling */
+.candidate-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Candidate card styling */
+.candidate-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Candidate name styling */
+.candidate-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Vote button styling */
+.vote-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.vote-button:hover {
+  background-color: darkblue;
+}
+
+/* Disabled button styling */
+.vote-button.disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+/* Result list styling */
+.result-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.result-list li {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+/* Navigation Buttons */
+.results-button,
+.back-button {
+  margin-top: 20px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
+
+.results-button:hover,
+.back-button:hover {
+  background-color: darkgreen;
+}
+.unvote-button {
+  margin-top: 20px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+
+.unvote-button:hover {
+  background-color: darkred;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.card {
+  width: 250px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
